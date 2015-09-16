@@ -30,4 +30,16 @@ html {
  	width: 25%;
  	font-size: .75em;
  }
- 
+ .pano {
+ 	background-image: url("../images/pano.jpg");
+ 	width: 100%;
+ 	position: relative;
+ 	height: 20em;
+ }
+
+.seven {
+ 	position: absolute;
+ 	top: 250px;
+ 	padding-left: 1em;
+ 	color: white;
+ }
