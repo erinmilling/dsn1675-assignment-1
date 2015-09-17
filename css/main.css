@@ -51,3 +51,7 @@ html {
  	padding-left: 1em;
  	color: white;
  }
+ h2{
+ 	display: block;
+ 	text-align: center;
+ }
