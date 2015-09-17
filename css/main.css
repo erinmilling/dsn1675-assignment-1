@@ -13,6 +13,14 @@ html {
 
  h1{
  	font-size: 1.5em;
+ 	display: inline-block;
+ }
+ .buy{
+ 	float: right;
+ 	border: 1px solid black;
+ 	padding: 0 1em 0 1em;
+ 	background-color: blue;
+
  }
 
  nav a{
