@@ -78,8 +78,26 @@ html {
  }
  .nowplaying{
  	position: absolute;
- 	top: 4400px;
+ 	top: 4100px;
  	color: white;
- 	padding-left: 1.5em;
+ 	padding-left: 1.5em; 
 
  }
+.babylon{
+	width: 100%;
+}
+.artemis{
+	width: 100%;
+}
+.zeus{
+	width: 100%;
+}
+.mauso{
+	width: 100%;
+}
+.rhodes{
+	width: 100%;
+}
+.alex{
+	width: 100%;
+}
