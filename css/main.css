@@ -76,3 +76,10 @@ html {
  	width: 100%;
  	height: 12em;
  }
+ .nowplaying{
+ 	position: absolute;
+ 	top: 4400px;
+ 	color: white;
+ 	padding-left: 1.5em;
+
+ }
