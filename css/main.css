@@ -1,9 +1,13 @@
 html {
   box-sizing: border-box;
   font-family: 'dosis', sans-serif;
+  background-color: #bfd3e4;
 }
 *, *::before, *::after {
   box-sizing: inherit;
+ }
+ body{
+ 	margin-left: .5em;
  }
 
  .logo{
@@ -12,16 +16,14 @@ html {
  }
 
  h1{
- 	font-size: 1.5em;
+ 	font-size: 1.25em;
  	display: inline-block;
  	text-align: center;
  }
  .buy{
  	float: right;
- 	border: 1px solid black;
  	padding: 0 1em 0 1em;
- 	background-color: blue;
-
+ 	background-color: #9235cb;
  }
 
  nav a{
@@ -30,14 +32,15 @@ html {
 
  ol{
  	list-style-type: none;
+ 	padding: 0;
  }
 
  nav li{
  	display: inline-block;
- 	padding: 1.25em;
- 	border: 1px solid black;
- 	width: 25%;
+ 	width: 32%;
  	font-size: .75em;
+ 	background-color: black;
+ 	color: white;
  }
  .pano {
  	background-image: url("../images/pano.jpg");
@@ -60,9 +63,16 @@ html {
  .giza{
  	width: 100%;
  }
-
+.left{
+	float: left;
+	width: 30%;
+}
+.right{
+	float: right;
+	width: 30%;
+}
  dl{
- 	display: inline-block;
+ 	display: block;
  }
  dd{
  	display: inline-block;
@@ -78,11 +88,15 @@ html {
  	width: 100%;
  }
  .nowplaying{
- 	position: absolute;
+ 	position: relative;
  	color: white;
  	width: 100%; 
- 	top: 4300px;
-}
+ }
+.text{
+	position: absolute;
+	top: 4400px;
+
+ }
 .babylon{
 	width: 100%;
 }
@@ -100,4 +114,17 @@ html {
 }
 .alex{
 	width: 100%;
+}
+a {
+	display: block;
+	border: .25em solid black;
+	text-decoration: none;
+	padding: 0;
+	margin: .25em .5em .25em 1em;
+	background-color: black;
+	color: white;
+}
+footer{
+	background-color: white;
+	margin: 0;
 }
