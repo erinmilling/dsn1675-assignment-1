@@ -19,7 +19,7 @@ html {
  }
 
  h1{
- 	font-size: 1.5em;
+ 	font-size: 1.5rem;
  	display: inline-block;
  	text-align: center;
  }
@@ -121,3 +121,49 @@ footer{
 	padding-left: .5em;
 	padding: 1em;
 }
+@media only screen and (min-width: 30em) {
+
+	.logo{
+		display: block;
+		text-align: center;
+	}
+	h1{
+		display: block;
+		font-size: 2rem;
+	}
+	h2{
+		font-size: 1.75rem;
+	
+	}
+	.float{
+		float: right;
+		padding-right: 1em;
+		display: inline-block;
+		top: 100px;
+	
+	}
+	.learnmore{
+		clear: both;
+	}
+	.giza{
+		width: 50%;
+}
+	.babylon{
+		width: 50%;
+}
+
+	.artemis {
+	width: 50%;
+}
+
+	.zeus{
+	width: 50%;
+}
+.mauso{
+	width: 50%;
+}
+.rhodes{
+	width: 50%;
+}
+.alex{
+	width: 50%;
