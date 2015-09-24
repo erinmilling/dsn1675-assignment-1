@@ -1,3 +1,9 @@
+@-moz-viewport {width: device-width; scale: 1;}
+@-ms-viewport {width: device-width; scale: 1;}
+@-o-viewport {width: device-width; scale: 1;}
+@-webkit-viewport {width: device-width; scale: 1;}
+@viewport {width: device-width; scale: 1;}
+
 html {
   box-sizing: border-box;
   font-family: 'dosis', sans-serif;
@@ -72,7 +78,8 @@ html {
  	display: inline-block;
  }
  .learnmore{
- 	display: block;
+ 	display: inline-block;
+ 	position: absolute;
  }
  h3{
  	color: #00b2c4;
@@ -144,26 +151,39 @@ footer{
 	}
 	.learnmore{
 		clear: both;
+		display: inline;
 	}
 	.giza{
 		width: 50%;
+		margin-bottom: 1em;
 }
 	.babylon{
 		width: 50%;
+		margin-bottom: 1em;
+
 }
 
 	.artemis {
 	width: 50%;
+	margin-bottom: 1em;
+
 }
 
 	.zeus{
 	width: 50%;
+	margin-bottom: 1em;
+
 }
 .mauso{
 	width: 50%;
+	margin-bottom: 1em;
+
 }
 .rhodes{
 	width: 50%;
+	margin-bottom: 1em;
+
 }
 .alex{
 	width: 50%;
+	margin-bottom: 1em;
