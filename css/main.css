@@ -57,10 +57,15 @@ html {
  }
 
 .seven {
- 	position: absolute;
- 	top: 250px;
+ 	position: absolute; 
  	padding-left: 1em;
  	color: white;
+ 	text-align: center;
+ 	top: 100px;
+ }
+ .sevwon{
+ 	font-size: 1.5rem;
+ 	color: #fff;
  }
  h2{
  	display: block;
@@ -77,9 +82,12 @@ html {
  dd{
  	display: inline-block;
  }
- .learnmore{
- 	display: inline-block;
- 	position: absolute;
+ .learn{
+ 	text-align: center;
+ 	margin: 0 auto;
+ 	width: 60%;
+ 	float: left;
+ 	display: block;
  }
  h3{
  	color: #00b2c4;
