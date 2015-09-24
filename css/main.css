@@ -20,19 +20,20 @@ html {
  }
 
  .logo{
- 	float: left;
- 	width: 15%;
+ 	width: 50%;
+ 	display: block;
+ 	text-align: center;
  }
 
  h1{
- 	font-size: 1.5rem;
- 	display: inline-block;
+ 	font-size: 1.2rem;
  	text-align: center;
  }
  .buy{
- 	float: right;
- 	padding: 0 1em 0 1em;
+ 	padding: 0 .5em 0 .5em;
  	background-color: #9235cb;
+ 	text-align: center;
+ 	width: 40%;
  }
 
  nav a{
@@ -131,11 +132,12 @@ footer{
 @media only screen and (min-width: 30em) {
 
 	.logo{
-		display: block;
+		display: inline-block;
 		text-align: center;
+		width: 20%;
 	}
 	h1{
-		display: block;
+		display: inline-block;
 		font-size: 2rem;
 	}
 	h2{
