@@ -22,11 +22,12 @@ html {
  .logo{
  	width: 50%;
  	display: block;
+ 	margin: 0 auto;
  	text-align: center;
  }
 
  h1{
- 	font-size: 1.2rem;
+ 	font-size: 1.5rem;
  	text-align: center;
  }
  .buy{
@@ -34,20 +35,18 @@ html {
  	background-color: #9235cb;
  	text-align: center;
  	width: 40%;
+ 	margin: 0 auto;
+ }
+ nav{
+ 	margin: 0;
+ 	padding:0;
  }
 
- nav a{
+ .nav a{
  	text-decoration: none;
- 	display: inline-block;
- }
-
- nav li{
- 	display: inline-block;
- 	width: 24%;
- 	font-size: .75em;
- 	background-color: black;
- 	color: white;
- 
+ 	display: block;
+ 	padding: .5em 1em;
+ 	color: #fff;
 
   }
  .pano {
