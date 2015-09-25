@@ -126,6 +126,9 @@ html {
 .alex{
 	width: 100%;
 }
+ol{
+	list-style-type: none;
+}
 .tickets{
 	display: block;
 	padding-top: 1em;
@@ -163,14 +166,14 @@ footer{
 		padding: 0;
 		margin: 0;
 		clear: both;
+		list-style-type: none;
 	}
 	.nav {
 		text-align: center;
 		padding: 0;
 		margin: 0;
 		display: block;
-			clear: both;
-
+		clear: both;
 	}
 	h2{
 		font-size: 1.75rem;
@@ -190,6 +193,7 @@ footer{
 	.giza{
 		width: 50%;
 		margin-bottom: 1em;
+		display: inline-block;
 }
 	.babylon{
 		width: 50%;
@@ -221,3 +225,13 @@ footer{
 .alex{
 	width: 50%;
 	margin-bottom: 1em;
+}
+ol {
+	list-style-type: none;
+}
+.nowplaying{
+	text-align: center;
+}
+footer a{
+	width: 50%;
+}
