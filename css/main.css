@@ -15,9 +15,6 @@ html {
  body{
  	margin: 0 0 0 .25em;
  }
- ol{
- 	padding: 0;
- }
 
  .logo{
  	width: 50%;
@@ -37,9 +34,10 @@ html {
  	width: 40%;
  	margin: 0 auto;
  }
- nav{
+ .nav{
  	margin: 0;
  	padding:0;
+ 	list-style-type: none;
  }
 
  .nav a{
@@ -47,8 +45,11 @@ html {
  	display: block;
  	padding: .5em 1em;
  	color: #fff;
-
   }
+ .nav a:hover{
+ 	background-color: white;
+ 	color: black;
+ }
  .pano {
  	background-image: url("../images/pano.jpg");
  	width: 100%;
@@ -78,6 +79,7 @@ html {
 
  dl{
  	display: inline-block;
+ 	margin: 0 auto;
  }
  dd{
  	display: inline-block;
@@ -85,12 +87,15 @@ html {
  .learn{
  	text-align: center;
  	margin: 0 auto;
- 	width: 60%;
+ 	width: 100%;
  	float: left;
  	display: block;
+ 	clear: both;
  }
  h3{
  	color: #00b2c4;
+ 	text-align: center;
+ 	display: block;
  }
  .atlantis{
   	position: relative;
@@ -121,6 +126,12 @@ html {
 .alex{
 	width: 100%;
 }
+.tickets{
+	display: block;
+	padding-top: 1em;
+	width: 100%;
+	text-align: center;
+}
 a {
 	display: block;
 	border: .1em solid black;
@@ -146,6 +157,20 @@ footer{
 	h1{
 		display: inline-block;
 		font-size: 2rem;
+	}
+	.nav li{
+		display: block;
+		padding: 0;
+		margin: 0;
+		clear: both;
+	}
+	.nav {
+		text-align: center;
+		padding: 0;
+		margin: 0;
+		display: block;
+			clear: both;
+
 	}
 	h2{
 		font-size: 1.75rem;
